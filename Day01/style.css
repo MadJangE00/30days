@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+* {
+  cursor: none;
+}
+body {
+  overflow-x: hidden;
+}
+section {
+  min-height: 100vh;
+  background-color: rgb(33, 43, 82);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
