@@ -12,7 +12,7 @@ window.addEventListener("scroll", () => {
 });
 window.addEventListener("click", () => {
   if (cursor.classList.contains("click")) {
-    cursor.,classList.remove("click");
+    cursor.classList.remove("click");
     void cursor.offsetWidth;
     cursor.classList.add("click");
   } else {
