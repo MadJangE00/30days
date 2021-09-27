@@ -12,7 +12,7 @@ form.addEventListener("submit", (e) => {
       "x-requested-with": "text/plain"
     }
   })
-    .then(response => response.text()
+    .then(response => response.text())
     .then(text => factDiv.innerHTML = text)
     .catch(e => console.log(e));
 })
